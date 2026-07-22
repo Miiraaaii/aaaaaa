@@ -37,17 +37,20 @@ Exemplo: trigger funcionando
 
 <img width="1081" height="608" alt="image" src="https://github.com/user-attachments/assets/36cccfa2-c384-4dca-88b9-84e37fdac6da" />
 
-**Tecnologias utilizadas**
-  -PostgreSQL (hospedado via Supabase)
-  -Mockaroo para geração de dados fake
-  -dbdiagram.io para modelagem visual (DER)
-  -Estrutura de arquivos
+## **Tecnologias utilizadas**
+
+- **PostgreSQL** (hospedado via Supabase)
+- **Mockaroo** para geração de dados fake
+- **dbdiagram.io** para modelagem visual (DER)
+
+## **Estrutura de arquivos**
 banco-digital-sql/
   ├── README.md
   ├── schema.sql        → criação de todas as tabelas, constraints e índices
   ├── seed-data.sql      → amostra dos dados de teste (INSERTs)
   └── queries.sql        → trigger, função, view e queries de relatório
-**Como rodar este projeto**
+
+## **Como rodar este projeto**
 
 Crie uma conta gratuita em supabase.com e crie um novo projeto.
 Abra o SQL Editor do Supabase.
