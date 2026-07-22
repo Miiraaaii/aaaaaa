@@ -2,13 +2,17 @@ Banco Digital — Projeto SQL
 
 Projeto de banco de dados relacional simulando um banco digital (estilo Nubank), com contas, cartões, transações e faturas. Desenvolvido em PostgreSQL na plataforma Supabase.
 
-Diagrama Entidade-Relacionamento (DER)
+**Diagrama Entidade-Relacionamento (DER)**
 
-**por a foto do DER**
+<img width="1417" height="882" alt="image" src="https://github.com/user-attachments/assets/df712df2-7122-42a5-8a05-489c8f71a136" />
+
+<img width="1797" height="695" alt="image" src="https://github.com/user-attachments/assets/0cd10021-ae74-4b37-a95d-68ee6cc321db" />
+
 
 (Diagrama gerado no dbdiagram.io mostrando o relacionamento entre clientes, contas, cartões, transações e faturas)
 
-Estrutura do banco
+**Estrutura do banco**
+
 clientes: dados cadastrais (nome, CPF, email)
 contas: contas correntes e poupança, vinculadas a um cliente
 cartoes: cartões de débito/crédito, vinculados a uma conta
@@ -21,31 +25,32 @@ View de extrato consolidado: extrato_consolidado junta transações, contas e cl
 Relatório de fatura por período: query que soma os gastos de cartão de crédito agrupados por mês.
 Exemplo: trigger funcionando
 
-Antes de inserir a transação (saldo original):
+**Antes de inserir a transação (saldo original):**
 
-<img width="1417" height="882" alt="image" src="https://github.com/user-attachments/assets/95dcce96-caf7-436d-9868-93899f0116c1" />
+<img width="240" height="92" alt="image" src="https://github.com/user-attachments/assets/f94ac2a6-ac0a-429e-b8cc-18860d483534" />
 
-**POR A DEVIDA IMAGEM**
 
-Depois de inserir um depósito de R$100,00 (saldo atualizado automaticamente pela trigger):
+**Depois de inserir um depósito de R$100,00 (saldo atualizado automaticamente pela trigger):**
 
-**POR A DEVIDA IMAGEM**
+<img width="240" height="92" alt="image" src="https://github.com/user-attachments/assets/ed894305-25e3-47b8-ab73-a17d2aa36995" />
+
 
 Exemplo: extrato consolidado
 
-**POR A DEVIDA IMAGEM**
+<img width="1081" height="608" alt="image" src="https://github.com/user-attachments/assets/36cccfa2-c384-4dca-88b9-84e37fdac6da" />
 
-Tecnologias utilizadas
-PostgreSQL (hospedado via Supabase)
-Mockaroo para geração de dados fake
-dbdiagram.io para modelagem visual (DER)
-Estrutura de arquivos
+**Tecnologias utilizadas**
+  -PostgreSQL (hospedado via Supabase)
+  -Mockaroo para geração de dados fake
+  -dbdiagram.io para modelagem visual (DER)
+  -Estrutura de arquivos
 banco-digital-sql/
   ├── README.md
   ├── schema.sql        → criação de todas as tabelas, constraints e índices
   ├── seed-data.sql      → amostra dos dados de teste (INSERTs)
   └── queries.sql        → trigger, função, view e queries de relatório
-Como rodar este projeto
+**Como rodar este projeto**
+
 Crie uma conta gratuita em supabase.com e crie um novo projeto.
 Abra o SQL Editor do Supabase.
 Execute o conteúdo de schema.sql para criar as tabelas.
