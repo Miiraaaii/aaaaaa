@@ -1,6 +1,6 @@
 ## **Banco Digital — Projeto SQL**
 
-Projeto de banco de dados relacional simulando um banco digital (estilo Nubank), com contas, cartões, transações e faturas. Desenvolvido em PostgreSQL na plataforma Supabase.
+Projeto de banco de dados relacional simulando um banco digital, com contas, cartões, transações e faturas. Desenvolvido em PostgreSQL na plataforma Supabase.
 
 ## **Diagrama Entidade-Relacionamento (DER)**
 
