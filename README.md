@@ -1,15 +1,15 @@
-Banco Digital — Projeto SQL
+## **Banco Digital — Projeto SQL**
 
 Projeto de banco de dados relacional simulando um banco digital (estilo Nubank), com contas, cartões, transações e faturas. Desenvolvido em PostgreSQL na plataforma Supabase.
 
-**Diagrama Entidade-Relacionamento (DER)**
+## **Diagrama Entidade-Relacionamento (DER)**
 
 <img width="1797" height="695" alt="image" src="https://github.com/user-attachments/assets/0cd10021-ae74-4b37-a95d-68ee6cc321db" />
 
 
 (Diagrama gerado no dbdiagram.io mostrando o relacionamento entre clientes, contas, cartões, transações e faturas)
 
-**Estrutura do banco**
+## **Estrutura do banco**
 
 clientes: dados cadastrais (nome, CPF, email)
 contas: contas correntes e poupança, vinculadas a um cliente
@@ -44,12 +44,13 @@ Exemplo: trigger funcionando
 - **dbdiagram.io** para modelagem visual (DER)
 
 ## **Estrutura de arquivos**
+```
 banco-digital-sql/
-  ├── README.md
-  ├── schema.sql        → criação de todas as tabelas, constraints e índices
-  ├── seed-data.sql      → amostra dos dados de teste (INSERTs)
-  └── queries.sql        → trigger, função, view e queries de relatório
-
+├── README.md
+├── schema.sql        → criação de todas as tabelas, constraints e índices
+├── seed-data.sql      → amostra dos dados de teste (INSERTs)
+└── queries.sql        → trigger, função, view e queries de relatório
+```
 ## **Como rodar este projeto**
 
 Crie uma conta gratuita em supabase.com e crie um novo projeto.
