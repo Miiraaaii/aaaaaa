@@ -4,8 +4,6 @@ Projeto de banco de dados relacional simulando um banco digital (estilo Nubank),
 
 **Diagrama Entidade-Relacionamento (DER)**
 
-<img width="1417" height="882" alt="image" src="https://github.com/user-attachments/assets/df712df2-7122-42a5-8a05-489c8f71a136" />
-
 <img width="1797" height="695" alt="image" src="https://github.com/user-attachments/assets/0cd10021-ae74-4b37-a95d-68ee6cc321db" />
 
 
@@ -35,7 +33,7 @@ Exemplo: trigger funcionando
 <img width="240" height="92" alt="image" src="https://github.com/user-attachments/assets/ed894305-25e3-47b8-ab73-a17d2aa36995" />
 
 
-Exemplo: extrato consolidado
+**Exemplo: extrato consolidado**
 
 <img width="1081" height="608" alt="image" src="https://github.com/user-attachments/assets/36cccfa2-c384-4dca-88b9-84e37fdac6da" />
 
